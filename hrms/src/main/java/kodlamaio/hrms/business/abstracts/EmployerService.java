@@ -8,6 +8,6 @@ import kodlamaio.hrms.entities.concretes.Employer;
 
 public interface EmployerService {
 	DataResult<List<Employer>> getAll();
-	public Result Register(Employer employer,String confirmPassword);
+	Result Register(Employer employer,String confirmPassword);
 	
 }

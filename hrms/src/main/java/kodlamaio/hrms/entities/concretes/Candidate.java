@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-@PrimaryKeyJoinColumn(name = "id")
+@PrimaryKeyJoinColumn(name = "candidate_id",referencedColumnName = "user_id")
 @EqualsAndHashCode(callSuper = false)
 @AllArgsConstructor
 @NoArgsConstructor

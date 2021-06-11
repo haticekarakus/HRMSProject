@@ -34,6 +34,7 @@ public class EmployersController {
 	public Result Add(@RequestBody Employer employer,String confirmPassword) {
 		return this.employerService.Register(employer, confirmPassword);
 	}
+	
 
 
 }

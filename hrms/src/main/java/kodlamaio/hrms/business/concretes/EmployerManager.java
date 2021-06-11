@@ -21,7 +21,6 @@ public class EmployerManager implements EmployerService{
 	
 	@Autowired
 	public EmployerManager(EmployerDao employerDao) {
-		super();
 		this.employerDao = employerDao;
 	}
 

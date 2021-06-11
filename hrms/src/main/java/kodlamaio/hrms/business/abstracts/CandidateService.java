@@ -10,6 +10,6 @@ import kodlamaio.hrms.entities.concretes.Candidate;
 
 public interface CandidateService {
 	DataResult<List<Candidate>> getAll();
-	public Result Register(Candidate candidate);
+	Result Register(Candidate candidate);
 
 }

@@ -19,7 +19,6 @@ public class JobPositionManager implements JobPositionService{
 	
 	@Autowired
 	public JobPositionManager(JobPositionDao jobPositionDao) {
-		super();
 		this.jobPositionDao = jobPositionDao;
 	}
 	

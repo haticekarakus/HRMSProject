@@ -69,5 +69,10 @@ public class CandidateManager implements CandidateService{
 		return new SuccessDataResult<List<Candidate>>(this.candidateDao.findAll(),"veriler listelendi.");
 	}
 
+	@Override
+	public DataResult<Candidate> getByCandidateId(int id) {
+		return new SuccessDataResult<Candidate>(this.candidateDao.getByUserId(id));
+	}
+
 
 }
